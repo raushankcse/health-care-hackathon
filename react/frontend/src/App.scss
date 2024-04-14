@@ -417,7 +417,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #000000b3;
 }
 
 .over-layer-white,
@@ -466,11 +466,11 @@ button {
     width: 100%;
     height: 100%;
     z-index: 0;
-    background-color: rgba(0, 176, 146, 0.9);
+    background-color: #00b092e6;
 }
 
 .over-layer-default-light:before {
-    background-color: rgba(0, 176, 146, 0.7);
+    background-color: #00b092b3;
 }
 
 
@@ -4831,35 +4831,35 @@ footer {
     border-radius: 7px;
 }
 
-// .social-icon.borde#00B092 li {
-//     border: 1px solid;
-// }
+.social-icon.borde li {
+    border: 1px solid;
+}
 
-// .social-icon.borde#00B092 li:hover {
-//     background: #00B092;
-//     border-color: #00B092;
-// }
+.social-icon.borde li:hover {
+    background: #00B092;
+    border-color: #00B092;
+}
 
-// .social-icon.borde#00B092 li:hover a {
-//     color: #fff;
-// }
+.social-icon.borde li:hover a {
+    color: #fff;
+}
 
-// .social-icon.borde#00B092-theme li {
-//     border: 1px solid #00B092;
-// }
+.social-icon.borde li {
+    border: 1px solid #00B092;
+}
 
-// .social-icon.borde#00B092-theme li a {
-//     color: #00B092;
-// }
+.social-icon.borde li a {
+    color: #00B092;
+}
 
-// .social-icon.borde#00B092-theme li:hover {
-//     background: #00B092;
-//     border-color: #00B092;
-// }
+.social-icon.borde li:hover {
+    background: #00B092;
+    border-color: #00B092;
+}
 
-// .social-icon.borde#00B092-theme li:hover a {
-//     color: #fff;
-// }
+.social-icon.borde li:hover a {
+    color: #fff;
+}
 
 .news-area {
     margin-bottom: 20px;

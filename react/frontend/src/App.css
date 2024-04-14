@@ -379,7 +379,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.7019607843);
 }
 
 .over-layer-white,
@@ -428,11 +428,11 @@ button {
   width: 100%;
   height: 100%;
   z-index: 0;
-  background-color: rgba(0, 176, 146, 0.9);
+  background-color: rgba(0, 176, 146, 0.9019607843);
 }
 
 .over-layer-default-light:before {
-  background-color: rgba(0, 176, 146, 0.7);
+  background-color: rgba(0, 176, 146, 0.7019607843);
 }
 
 .preloader {
@@ -4288,6 +4288,36 @@ footer {
 
 .social-icon.round li {
   border-radius: 7px;
+}
+
+.social-icon.borde li {
+  border: 1px solid;
+}
+
+.social-icon.borde li:hover {
+  background: #00B092;
+  border-color: #00B092;
+}
+
+.social-icon.borde li:hover a {
+  color: #fff;
+}
+
+.social-icon.borde li {
+  border: 1px solid #00B092;
+}
+
+.social-icon.borde li a {
+  color: #00B092;
+}
+
+.social-icon.borde li:hover {
+  background: #00B092;
+  border-color: #00B092;
+}
+
+.social-icon.borde li:hover a {
+  color: #fff;
 }
 
 .news-area {

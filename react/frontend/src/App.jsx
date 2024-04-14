@@ -3,6 +3,7 @@ import Landing from './components/landingPage/landing'
 import About from './components/aboutPage/about'
 import Contact from './components/contactPage/contact'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 // Import React router dom
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
