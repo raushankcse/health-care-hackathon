@@ -1,7 +1,7 @@
 import './App.css'
-import landing from './components/landingPage/landing'
-import about from './components/aboutPage/about'
-import contact from './components/contactPage/contact'
+import Landing from './components/landingPage/landing'
+import About from './components/aboutPage/about'
+import Contact from './components/contactPage/contact'
 
 // Import React router dom
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -10,15 +10,15 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div ><landing /></div>
+    element: <div ><Landing /></div>
   },
   {
     path: '/about',
-    element: <div ><about /></div>
+    element: <div ><About /></div>
   },
   {
     path: '/contact',
-    element: <div ><contact /></div>
+    element: <div ><Contact /></div>
   }
 ])
 
